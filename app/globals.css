@@ -26,6 +26,21 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+h1 {
+  @apply text-3xl;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 14px;
+  line-height: 1.5;
+  list-style-type: disc;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

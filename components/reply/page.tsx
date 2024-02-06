@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 
 type TextProps = {
@@ -5,7 +6,7 @@ type TextProps = {
 };
 
 const Reply: React.FC<TextProps> = ({ text }) => {
-    return <div>{text}</div>;
+    return <div className='size-8/12 bg-slate-700'>{text}</div>;
 };
 
 export default Reply;

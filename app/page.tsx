@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client';
 import Interpreter from "./interpreter/page";
 
 export default function Home() {
